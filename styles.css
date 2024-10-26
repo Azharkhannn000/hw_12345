@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.container{
+    background-color: hsl(213, 19%, 18%);
+    width: 380px;
+    height: 350px;
+    border-radius: 20px;
+    display: grid;
+    gap: 1.5rem;
+    place-content: center;
+}
+img{
+    background-color: hsl(213, 5%, 38%);
+    padding: 10px;
+    border-radius: 50px;
+}
+p{
+    color: hsl(213, 5%, 38%);
+}
+.numbers{
+    display: flex;
+    gap: 1.5rem;
+}
+.num{
+    background-color: hsl(213, 5%, 38%);
+    border-radius: 50px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    color: hsl(217, 12%, 63%);
+}
+.num:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+.submit{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    background-color: hsl(25, 97%, 53%);
+}
+.submit:hover{
+    background-color: hsl(216, 12%, 8%);
+}
